@@ -1,0 +1,292 @@
+/* //GANERALES  */
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+    body{
+        background-color: aliceblue;
+    }
+    
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    
+    
+    .btn  {
+        color: white;
+        background-color: blue;
+        padding: 2rem 7rem;
+        margin-top: 3rem;
+        font-size: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-left: 3%;
+        border-radius: .5rem;
+        width: 92%;
+        text-align: center;
+        border: none;
+    }
+    .btn:hover{
+        background-color: white;
+        color: blue;
+        border: 1px blue solid;
+        box-shadow: 1px 1px 1px blue;
+    }
+    
+    /* /CABECERAS  */
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(65, 105, 225, 0.469);
+        width: 90%;
+        color: white;
+        margin: auto;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 5px;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .tituloNav{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: rgba(30, 80, 181, 0.993);
+        align-content: center;
+        width: 90%;
+        margin: auto;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+    }
+    .nav h2{
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .nav ul li{
+        display: inline-flex;
+        list-style-type: none;
+    }
+    .nav ul li {
+       text-decoration: none;
+       font-size: 2rem;
+       color: white;
+       margin-right: 2rem;
+    
+    }
+    .nav ul li:hover{
+        background-color: red;
+        color: yellow;
+        padding: 5px;
+        box-shadow: 2px 2px 2px red;
+    }
+    
+    
+    /* /CUERPOS  */
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .seccion1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .perfiles{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgba(63, 175, 255, 0.489);
+        padding: 40px;
+        width: auto;
+    }
+    
+    .card{
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        flex-direction: column;
+        padding: .5rem;
+        width: 30%;
+        margin: 3px;
+    } 
+    .card:hover{
+        box-shadow: 2px 2px 2px black;
+    }
+    
+    .imagen{
+        text-align: start;
+    }
+    
+    .container{
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    
+    .examen{
+        display: block;
+        padding: 1rem;
+        text-align: justify;
+        font-size: 1.5rem;
+        background-color: rgba(204, 204, 129, 0.857);
+        border-radius: 7px;
+    }
+    .examen img{
+        text-align: center;
+        width: 65%;
+        margin-left: 40px;
+        margin-top: 12px;
+    }
+    .verde{
+        color: green;
+    }
+    .azul{
+        color: blue;
+    }
+    .copiar{
+        border-radius: 7px;
+        display: block;
+        padding: 1rem;
+        text-align: justify;
+        font-size: 1.5rem;
+        background-color: rgba(138, 138, 134, 0.612);
+    }
+    .copiar img{
+        border-radius: 50%;
+        width: 60%;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .rojo{
+        color: red;
+    }
+    .seccion2{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        background-color: white;
+        font-size: 16px;
+        margin-right: 10px;
+        border-radius: 7px;
+    }
+    .cajaFormulario{
+        padding: 1rem;
+    }
+    label{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .cajaFormulario input{
+        display: block;
+        width: 90%;
+        padding: .8rem;
+    }
+    .inputForm{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: auto;
+        justify-content: center;
+    }
+    .fas{
+        margin-top: 10px;
+        margin-right: 1.2rem;
+    }
+    .tabla{
+        background-color: rgb(255, 184, 52);
+        width: auto;
+        height: auto;
+        border-radius: 7px;
+    }
+    form select{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 45%;
+    }
+    table{
+        margin-top: 10px;
+        width: 80%;
+        height: 60%;
+        text-align: justify;
+        box-shadow: 2px 8px 6px rgba(0, 0, 0, 0.593);
+        background-color: black;
+        color: white;
+        margin: auto;
+        border: 0;
+        margin-top: 3em;
+    }
+    thead {
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #000;
+        border: #000 2px solid;
+        margin: 0;
+        padding: 5px 10px;
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+    }
+    tbody{
+        font-size: 14px;
+        background-color: rgb(181, 180, 180);
+        border: 0;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    /* //PIE D EPAGIAN   */
+    
+    footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        padding: 3rem;
+        justify-content: center;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 7px;
+    }

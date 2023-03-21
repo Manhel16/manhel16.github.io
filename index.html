@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+
+        <!-- // ------------------------- CABECERA -->
+        <header class="header">
+            <h1>HTML+CSS.FLEXBOX Y GRID</h1>
+        </header>
+
+        <!-- // ------------------------- NAVEGADOR -->
+        <nav class="nav">
+            <div class="tituloNav">
+                <h2>EXAMEN 2 Eval LM-DAW1</h2>
+            </div>
+
+            <div class="navDerecha">
+                <ul>
+                    <li>Sobre Nosotros</li>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <!-- // ------------------------- CUERPO -->
+        <main class="main">
+
+            <section class="seccion1">
+
+                <!-- // ------------------------- caja Perfiles -->
+                <div class="perfiles">
+                    <div class="card">
+                        <div class="imagen">
+                            <img src="./img/avatar2.png"  alt="Avatar">
+                        </div>
+                        <div class="container">
+                            <h4><b>EGG</b></h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imagen">
+                            <img src="./img/avatar2.png" alt="Avatar">
+                        </div>
+                        <div class="container">
+                            <h4><b>CNT</b></h4>
+                            
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imagen">
+                            <img src="./img/avatar2.png" alt="Avatar">
+                        </div>
+                        <div class="container">
+                            <h4><b>EGT</b></h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imagen">
+                            <img src="./img/avatar2.png" alt="Avatar">
+                        </div>
+                        <div class="container">
+                            <h4><b>PBT</b></h4>
+                            
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imagen">
+                            <img src="./img/avatar2.png" alt="Avatar">
+                        </div>
+                        <div class="container">
+                            <h4><b>CCA</b></h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- //fin caja perfiles -->
+
+                <div class="examen">
+                    este examen corresponde a la segunda evaluacion del modulo <span class="verde">Lenguaje de marcas y
+                        Sistemas de Gestion de Informacion</span>
+                    del primer curso del ciclo formativo <span class="azul"> Desarrollo de Aplicaciones Web</span>
+                    <div>
+                        <img src="img/cssgml.jpg" alt="" class="imagen-examem"></div>
+                </div>
+                <div class="copiar">
+                    
+                        Se pueden tomar todos los apuntes que se estime oportuno pero <span class="rojo">NO SE PUEDE
+                            COPIAR </span> ni <span class="rojo">TOTAL</span> ni <span class="rojo"> PARCIALMENTE</span>
+                        de otro compañero
+                    <div>
+                        <img src="img/istockphoto-1190205229-612x612.jpg" alt="">
+                    </div>
+                </div>
+
+            </section>
+            <!-- //FIN DE SECCION -->
+
+
+            <!-- //SECCION FORMULARIO -->
+            <section class="seccion2">
+
+                <!-- FORMULARIO -->
+                <form class="formulario">
+
+                    <div class="cajaFormulario">
+                        <label for="uname"><b>Nombre Usuario</b></label><br>
+                        <div class="inputForm">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Introducir nombre de usuario" name="uname" required></i>
+                        </div>
+                    </div>
+                    <div class="cajaFormulario">
+                        <label for="uname"><b>Contraseña</b></label><br>
+                        <div class="inputForm">
+                            <i class="fas fa-user"></i>
+                            <input type="password" placeholder="Introducir contraseña" name="uname" required></i>
+                        </div>
+                    </div>
+                    <div class="cajaFormulario">
+                        <label for="uname"><b>Repita Contraseña</b></label><br>
+                        <div class="inputForm">
+                            <i class="fas fa-user"></i>
+                            <input type="password" placeholder="Repita contraseña" name="uname" required></i>
+                        </div>
+                    </div>
+
+
+                    <button class="btn" type="submit">Entrar</button>
+                </form>
+                <!-- FIN DE FORMULARIO  -->
+
+
+                <!-- TABLA -->
+
+                <div class="tabla">
+
+                    <form action="#">
+                        <select id="buscador">
+                            <option value="1">Google</option>
+                            <option value="0" selected>Palomeras-Vallecas</option>
+                            <option value="2">Real Madrid</option>
+                        </select>
+                    </form>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Edad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> <i class="fas fa-female"></i>Ana</td>
+                                <td>García González</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-female"></i>Luis</td>
+                                <td>Fdez. Alterio</td>
+                                <td>21</td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-female"></i>Rosa</td>
+                                <td>Gómez Gómez</td>
+                                <td>19</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-female"></i>Antonio</td>
+                                <td>Durán Gutiérrez</td>
+                                <td>22</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+            <!-- //FIN DE SECCION2 -->
+
+        </main>
+        <!-- //TERMINA CUERPO DE MAINA -->
+
+        <footer class="footer">
+            14/03/2023 || Ángel De La Rosa
+        </footer>
+
+    </div>
+</body>
+</html>
